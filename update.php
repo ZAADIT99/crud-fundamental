@@ -5,7 +5,7 @@ include 'config.php';
 
 $id = $_GET['id'];
 
-$sql = "SELECT * FORM  WHERE dbcrud id='$id'";
+$sql = "SELECT * FROM tbsiswa WHERE id='$id'";
 $result = mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($result);
 ?>

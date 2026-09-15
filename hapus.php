@@ -4,7 +4,7 @@ include 'config.php';
 
 // hapus data
 if (isset($_GET['id'])) {
-    $id = $GET['id'];
+    $id = $_GET['id'];
 
     //hapus data dari database
     $sql = "DELETE FROM tbsiswa WHERE id='$id'";
